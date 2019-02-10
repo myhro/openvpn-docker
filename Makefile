@@ -1,3 +1,6 @@
+help:
+	@echo "Unknown command"
+
 clean: down
 	rm -f *.ovpn
 	sudo rm -rf etc/
